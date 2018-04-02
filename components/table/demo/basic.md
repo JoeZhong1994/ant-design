@@ -16,6 +16,14 @@ Simple table with actions.
 ````jsx
 import { Table, Icon, Divider } from 'antd';
 
+
+state = {
+        value: undefined,
+        pagination: {
+            pageSize: 5
+        }
+    }
+    
 const columns = [{
   title: 'Name',
   dataIndex: 'name',
